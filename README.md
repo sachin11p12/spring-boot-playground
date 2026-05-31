@@ -40,4 +40,4 @@ After completing this project, I should clearly understand how Spring works inte
 ## 📝 Daily Progress
 
 - Day 1: What is Web framework, Spring framework and coupling(Tight & Loose).
-- Day 2: 
+- Day 2: Learn about Inversion of control, dependency Injection and Beans.

@@ -40,4 +40,4 @@ After completing this project, I should clearly understand how Spring works inte
 ## 📝 Daily Progress
 
 - Day 1: What is Web framework, Spring framework and coupling(Tight & Loose).
-- Day 2: 
+- Day 2: Spring Core & Spring Context: Learn about Inversion of Control (IoC), Dependency Injection (DI), Spring Beans, bean lifecycle, bean scopes, and the Spring Application Context.

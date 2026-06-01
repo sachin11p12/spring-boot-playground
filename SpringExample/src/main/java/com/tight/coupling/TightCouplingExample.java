@@ -5,5 +5,4 @@ public class TightCouplingExample {
         UserManager userManager = new UserManager();
         System.out.println(userManager.getUserInfo());
     }
-
 }

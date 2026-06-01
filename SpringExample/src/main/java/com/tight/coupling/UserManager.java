@@ -1,5 +1,6 @@
 package com.tight.coupling;
-class UserManager{
+
+public class UserManager {
     private UserDatabase userDatabase = new UserDatabase();
 
     public String getUserInfo(){

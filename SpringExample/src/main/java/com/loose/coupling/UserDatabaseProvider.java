@@ -1,8 +1,12 @@
 package com.loose.coupling;
 
-public class UserDatabaseProvider implements UserDataProvider  {
+// A - MySQL, PostgreSQL
+// B - Web Service, MongoDB
+
+public class UserDatabaseProvider implements UserDataProvider {
     @Override
     public String getUserDetails(){
-        return "user Details from Database";
+        // Directly access database here
+        return "User Details From Database";
     }
 }

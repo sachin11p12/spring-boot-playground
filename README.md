@@ -44,3 +44,4 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 3: Bean Lifecycle & Dependency Injection: Learn about Dependency Injection (DI), Constructor Injection, how Dependency Injection works, differences.
 - Day 4: Setter Injection : Difference b/w Constructor and Setter Injection, Challenges of IOC.
 - Day 5: Learn about Annotations, Component and ComponentScan, HAnd On Example without Annotation.
+- Day 6: @Value annotation -  how do we inject any value into our properties that exist within the component.

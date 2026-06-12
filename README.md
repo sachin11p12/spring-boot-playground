@@ -48,4 +48,4 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 7: Transition from XML to Annotations in Spring Framework. @Configuration,  @ComponentScan, @Nullable, @Configuration, @Autowired, @Qualifier.
 - Day 8: Overview of SpringBoot, How SpringBoot is different from Spring, how doe Springboot works, architecture of springboot **Controller -> Service  ->  Repository ->  Database**.
 - Day 9: Create Spring Boot projects using Spring Initializer, Maven, Java 17, JAR packaging, and required dependencies managed in pom.xml. Understanding project Structure in IntelliJ. Annotation @springBootApplication annotation includes(@Configuration, @EnableAutoConfiguration, @componentScan).
-- Day 10: Learn about Dependencies in SpringBoot.
+- Day 10: Learn about Dependencies in SpringBoot. Make First API /hello 

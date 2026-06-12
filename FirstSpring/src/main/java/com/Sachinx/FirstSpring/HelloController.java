@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController    // specialized version of controller Annotation
 public class HelloController {
 
-    @GetMapping("/hello/{name}")  // dynamic  path
+    @GetMapping("/hello/{name}/show")  // dynamic  path  like it is called slug.
     public HelloResponse helloParam(@PathVariable String name){
         return new HelloResponse("Hello, "+name);
     }

@@ -43,6 +43,8 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 2: Spring Core & Spring Context: Learn about Inversion of Control (IoC), Spring Beans, bean scopes, and the Spring Application Context.
 - Day 3: Bean Lifecycle & Dependency Injection: Learn about Dependency Injection (DI), Constructor Injection, how Dependency Injection works, differences.
 - Day 4: Setter Injection : Difference b/w Constructor and Setter Injection, Challenges of IOC.
-- Day 5: Learn about Annotations, Component and ComponentScan, HAnd On Example without Annotation.
+- Day 5: Overview about Annotations, Component and ComponentScan, HAnd On Example without Annotation.
 - Day 6: @Value annotation -  how do we inject any value into our properties that exist within the component.
 - Day 7: Transition from XML to Annotations in Spring Framework. @Configuration,  @ComponentScan, @Nullable, @Configuration, @Autowired, @Qualifier.
+- Day 8: Overview of SpringBoot, How SpringBoot is different from Spring, how doe Springboot works, architecture of springboot **Controller -> Service  ->  Repository ->  Database**.
+- Day 9: Create Spring Boot projects using Spring Initializer, Maven, Java 17, JAR packaging, and required dependencies managed in pom.xml. Understanding project Structure in IntelliJ. Annotation @springBootApplication annotation includes(@Configuration, @EnableAutoConfiguration, @componentScan). 

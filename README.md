@@ -49,3 +49,4 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 8: Overview of SpringBoot, How SpringBoot is different from Spring, how doe Springboot works, architecture of springboot **Controller -> Service  ->  Repository ->  Database**.
 - Day 9: Create Spring Boot projects using Spring Initializer, Maven, Java 17, JAR packaging, and required dependencies managed in pom.xml. Understanding project Structure in IntelliJ. Annotation @springBootApplication annotation includes(@Configuration, @EnableAutoConfiguration, @componentScan).
 - Day 10: Learn about Dependencies in SpringBoot. Make First API /hello , Auto Configuration - Servlet, Tomcat Server, learn about application.properties.
+- Day 11: Setup Postman, Create a Post request , getting json response.

@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/hello")  //this /hello invoke below method
-    public String hello(){
-        return  "Hello Sachin!";
+    public HelloResponse hello(){
+        return new HelloResponse("Hello,  world");
     }
 
     @PostMapping("/hello")

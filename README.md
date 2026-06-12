@@ -46,4 +46,5 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 5: Learn about Annotations, Component and ComponentScan, HAnd On Example without Annotation.
 - Day 6: @Value annotation -  how do we inject any value into our properties that exist within the component.
 - Day 7: Transition from XML to Annotations in Spring Framework. @Configuration,  @ComponentScan, @Nullable, @Configuration, @Autowired, @Qualifier.
-- Day 8: Overview of SpringBoot, How SpringBoot is different from Spring, how doe Springboot works, architecture of springboot [Controller -> Service  ->  Repository ->  Database].
+- Day 8: Overview of SpringBoot, How SpringBoot is different from Spring, how doe Springboot works, architecture of springboot **Controller -> Service  ->  Repository ->  Database**.
+- Day 9: Create Spring Boot projects using Spring Initializer, Maven, Java 17, JAR packaging, and required dependencies managed in pom.xml.

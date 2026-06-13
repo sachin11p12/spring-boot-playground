@@ -3,6 +3,7 @@ package com.ecommerce.st_ecom.controller;
 
 import com.ecommerce.st_ecom.model.Category;
 import com.ecommerce.st_ecom.service.CategoryService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,11 +15,12 @@ import java.util.List;
 @RestController         // Marks this class as a REST API controller that handles HTTP requests.
 public class CategoryController {
 
+    @Autowired
     private CategoryService categoryService;
 
-    public CategoryController(CategoryService categoryService) {
-        this.categoryService = categoryService;
-    }
+//    public CategoryController(CategoryService categoryService) {  // optional if we use @Autowired Annotation
+//        this.categoryService = categoryService;
+//    }
 
     @GetMapping("api/public/categories")     // Handles HTTP GET requests to retrieve all categories.
     public List<Category> getAllCategories(){

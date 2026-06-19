@@ -22,12 +22,12 @@ public class CategoryController {
 //        this.categoryService = categoryService;
 //    }
 
-    @GetMapping("api/public/categories")     // Handles HTTP GET requests to retrieve all categories.
+    @GetMapping("/api/public/categories")     // Handles HTTP GET requests to retrieve all categories.
     public List<Category> getAllCategories(){
         return categoryService.getAllCategories();
     }
 
-    @PostMapping("api/public/categories")    // Handles HTTP POST requests to create a new category.
+    @PostMapping("/api/public/categories")    // Handles HTTP POST requests to create a new category.
     public String createCategory(@RequestBody Category category){   // @RequestBody converts JSON request data into a Category object.
         categoryService.createCategory(category);
         return "Category Added Successfully ";

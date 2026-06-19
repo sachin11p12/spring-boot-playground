@@ -50,3 +50,4 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 9: Create Spring Boot projects using Spring Initializer, Maven, Java 17, JAR packaging, and required dependencies managed in pom.xml. Understanding project Structure in IntelliJ. Annotation @springBootApplication annotation includes(@Configuration, @EnableAutoConfiguration, @componentScan).
 - Day 10: Learn about Dependencies in SpringBoot. Make First API /hello , Auto Configuration - Servlet, Tomcat Server, learn about application.properties.
 - Day 11: Setup Postman, Create a Post request , getting json response.
+- Day 12: delete mapping, delete by ID , Challenges in Managing Id, What is ResponseEntity Class, used case , why 200 OK always return not good, how to use ResponseEntity Class.

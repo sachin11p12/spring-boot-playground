@@ -52,3 +52,6 @@ After completing this project, I should clearly understand how Spring works inte
 - Day 11: Setup Postman, Create a Post request , getting json response.
 - Day 12: delete mapping, delete by ID , Challenges in Managing Id, What is ResponseEntity Class, used case .
 - Day 13: Learn about why 200 OK always return not good, how to use ResponseEntity Class.
+- Day 14: Revise all the Topics above. one by one, also make a word/pdf file to store all question and answer
+-  
+- 

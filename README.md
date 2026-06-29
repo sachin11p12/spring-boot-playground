@@ -41,7 +41,7 @@ After completing this project, I should clearly understand how Spring works inte
 
 <div align="center">
 
-# ⚡ 14 Days of Spring Boot Mastery
+# ⚡ Spring Boot 
 
 *Transforming Curiosity into Backend Development Skills.*
 

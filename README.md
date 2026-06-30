@@ -227,6 +227,11 @@ Includes:
 * 📚 Interview Preparation
 
 ---
+### ⚡ Day 15 — Data and Database
+Learn about Data and Database 
+Rdbms
+what is ORM 
+SQL vs NOsQL
 
 ## 📊 Mission Progress
 

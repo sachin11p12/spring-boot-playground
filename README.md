@@ -37,21 +37,231 @@ To build a strong foundation in Spring Framework concepts so that I can easily u
 After completing this project, I should clearly understand how Spring works internally, how objects are managed by the Spring container, and how dependency injection simplifies application development.
 
 ---
-## 📝 Daily Progress
+# 🚀 Spring Boot Learning Odyssey
 
-- Day 1: What is Web framework, Spring framework and coupling(Tight & Loose).
-- Day 2: Spring Core & Spring Context: Learn about Inversion of Control (IoC), Spring Beans, bean scopes, and the Spring Application Context.
-- Day 3: Bean Lifecycle & Dependency Injection: Learn about Dependency Injection (DI), Constructor Injection, how Dependency Injection works, differences.
-- Day 4: Setter Injection : Difference b/w Constructor and Setter Injection, Challenges of IOC.
-- Day 5: Overview about Annotations, Component and ComponentScan, HAnd On Example without Annotation.
-- Day 6: @Value annotation -  how do we inject any value into our properties that exist within the component.
-- Day 7: Transition from XML to Annotations in Spring Framework. @Configuration,  @ComponentScan, @Nullable, @Configuration, @Autowired, @Qualifier.
-- Day 8: Overview of SpringBoot, How SpringBoot is different from Spring, how doe Springboot works, architecture of springboot **Controller -> Service  ->  Repository ->  Database**.
-- Day 9: Create Spring Boot projects using Spring Initializer, Maven, Java 17, JAR packaging, and required dependencies managed in pom.xml. Understanding project Structure in IntelliJ. Annotation @springBootApplication annotation includes(@Configuration, @EnableAutoConfiguration, @componentScan).
-- Day 10: Learn about Dependencies in SpringBoot. Make First API /hello , Auto Configuration - Servlet, Tomcat Server, learn about application.properties.
-- Day 11: Setup Postman, Create a Post request , getting json response.
-- Day 12: delete mapping, delete by ID , Challenges in Managing Id, What is ResponseEntity Class, used case .
-- Day 13: Learn about why 200 OK always return not good, how to use ResponseEntity Class.
-- Day 14: Revise all the Topics above. one by one, also make a word/pdf file to store all question and answer
+<div align="center">
+
+# ⚡ Spring Boot 
+
+*Transforming Curiosity into Backend Development Skills.*
+
+`Java 17` • `Spring` • `Spring Boot` • `REST APIs` • `Maven`
+
+---
+
+> **Status:** 🟢 In Progress
+> **Mission:** Become a Backend Developer, one day at a time.
+
+</div>
+
+---
+
+## 🌌 Progress Timeline
+
+### ⚡ Day 01 — Foundation Protocol
+
+> Understanding the ecosystem before writing code.
+
+* 🌐 What is a Web Framework?
+* 🍃 Introduction to Spring Framework
+* 🔗 Tight Coupling vs Loose Coupling
+
+---
+
+### ⚡ Day 02 — Spring Core Initialized
+
+> The heart of the Spring Framework.
+
+* 🧠 Inversion of Control (IoC)
+* 🌱 Spring Beans
+* 📦 Bean Scopes
+* 🏛️ Spring Application Context
+
+---
+
+### ⚡ Day 03 — Dependency Injection Engine
+
+> Let Spring manage your objects.
+
+* 💉 Dependency Injection (DI)
+* 🏗️ Constructor Injection
+* ⚙️ How DI Works
+* 🔄 Constructor Injection vs Traditional Approach
+
+---
+
+### ⚡ Day 04 — Setter Injection Module
+
+> Another way to inject dependencies.
+
+* 🔧 Setter Injection
+* ⚖️ Constructor vs Setter Injection
+* 🚧 Challenges of IoC
+
+---
+
+### ⚡ Day 05 — Annotation Awakening
+
+> Goodbye XML, hello annotations.
+
+* 📌 Spring Annotations Overview
+* 🧩 `@Component`
+* 🔍 `@ComponentScan`
+* 💻 Hands-on Example Without Annotations
+
+---
+
+### ⚡ Day 06 — Configuration Injection
+
+> Externalizing values made simple.
+
+* 🎯 `@Value` Annotation
+* 🛠 Injecting Configuration into Components
+
+---
+
+### ⚡ Day 07 — XML → Annotation Evolution
+
+> Modern Spring Development.
+
+* ⚙️ `@Configuration`
+* 🔍 `@ComponentScan`
+* 💉 `@Autowired`
+* 🎯 `@Qualifier`
+* ❓ `@Nullable`
+
+---
+
+### ⚡ Day 08 — Spring Boot Ignition
+
+> Building production-ready applications faster.
+
+* 🚀 Introduction to Spring Boot
+* ⚡ Spring vs Spring Boot
+* 🧠 Spring Boot Architecture
+
+```text
+Controller
+     │
+     ▼
+ Service
+     │
+     ▼
+Repository
+     │
+     ▼
+ Database
+```
+
+---
+
+### ⚡ Day 09 — Project Genesis
+
+> Creating the first Spring Boot project.
+
+* 🛠 Spring Initializr
+* 📦 Maven
+* ☕ Java 17
+* 📁 Project Structure
+* 📄 `pom.xml`
+* 🌟 `@SpringBootApplication`
+
+Includes:
+
+* `@Configuration`
+* `@EnableAutoConfiguration`
+* `@ComponentScan`
+
+---
+
+### ⚡ Day 10 — First Contact API
+
+> The first backend endpoint.
+
+* 📚 Dependencies
+* 🌐 `/hello` API
+* ⚙️ Auto Configuration
+* 🐱 Embedded Tomcat
+* 📝 `application.properties`
+
+---
+
+### ⚡ Day 11 — API Testing Station
+
+> Communicating with the server.
+
+* 📮 Postman Setup
+* 📤 POST Request
+* 📦 JSON Response
+
+---
+
+### ⚡ Day 12 — Resource Management
+
+> CRUD Operations Continue.
+
+* ❌ Delete Mapping
+* 🆔 Delete by ID
+* ⚠️ ID Management Challenges
+* 📤 `ResponseEntity`
+
+---
+
+### ⚡ Day 13 — HTTP Status Mastery
+
+> APIs should speak the right language.
+
+* ✅ Why `200 OK` Isn't Always Correct
+* 🎯 Proper Use of `ResponseEntity`
+* 📡 Meaningful HTTP Status Codes
+
+---
+
+### ⚡ Day 14 — Knowledge Synchronization
+
+> Reinforcing everything learned.
+
+* 🔄 Complete Revision
+* ❓ Question & Answer Notes
+* 📄 PDF/Word Documentation
+* 📚 Interview Preparation
+
+---
+### ⚡ Day 15 — Data and Database
+Learn about Data and Database 
+Rdbms
+what is ORM 
+SQL vs NOsQL
+
+## 📊 Mission Progress
+
+```text
+Day 01  ████████████████████
+Day 02  ████████████████████
+Day 03  ████████████████████
+Day 04  ████████████████████
+Day 05  ████████████████████
+Day 06  ████████████████████
+Day 07  ████████████████████
+Day 08  ████████████████████
+Day 09  ████████████████████
+Day 10  ████████████████████
+Day 11  ████████████████████
+Day 12  ████████████████████
+Day 13  ████████████████████
+Day 14  ████████████████████
+Day 15  ████████████████████
+```
+
+---
+
+<div align="center">
+
+### 💻 *"Every API built today becomes the foundation for tomorrow's systems."*
+
+⭐ **Thanks for visiting my learning journey!**
+
+</div>
+
 -  
 - 

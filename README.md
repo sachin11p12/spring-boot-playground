@@ -58,222 +58,200 @@ After completing this project, I should clearly understand how Spring works inte
 
 ## 🌌 Progress Timeline
 
-### ⚡ Day 01 — Foundation Protocol
+# 🌱 Spring Boot Learning Roadmap
 
-> Understanding the ecosystem before writing code.
+## Day 01 – Foundation
 
-* 🌐 What is a Web Framework?
-* 🍃 Introduction to Spring Framework
-* 🔗 Tight Coupling vs Loose Coupling
-
----
-
-### ⚡ Day 02 — Spring Core Initialized
-
-> The heart of the Spring Framework.
-
-* 🧠 Inversion of Control (IoC)
-* 🌱 Spring Beans
-* 📦 Bean Scopes
-* 🏛️ Spring Application Context
+* What is a Web Framework?
+* Introduction to Spring Framework
+* Tight Coupling vs Loose Coupling
 
 ---
 
-### ⚡ Day 03 — Dependency Injection Engine
+## Day 02 – Spring Core
 
-> Let Spring manage your objects.
-
-* 💉 Dependency Injection (DI)
-* 🏗️ Constructor Injection
-* ⚙️ How DI Works
-* 🔄 Constructor Injection vs Traditional Approach
+* Inversion of Control (IoC)
+* Spring Beans
+* Bean Scopes
+* Spring Application Context
 
 ---
 
-### ⚡ Day 04 — Setter Injection Module
+## Day 03 – Dependency Injection
 
-> Another way to inject dependencies.
-
-* 🔧 Setter Injection
-* ⚖️ Constructor vs Setter Injection
-* 🚧 Challenges of IoC
-
----
-
-### ⚡ Day 05 — Annotation Awakening
-
-> Goodbye XML, hello annotations.
-
-* 📌 Spring Annotations Overview
-* 🧩 `@Component`
-* 🔍 `@ComponentScan`
-* 💻 Hands-on Example Without Annotations
+* Dependency Injection (DI)
+* Constructor Injection
+* How DI Works
+* Constructor Injection vs Traditional Approach
 
 ---
 
-### ⚡ Day 06 — Configuration Injection
+## Day 04 – Setter Injection
 
-> Externalizing values made simple.
-
-* 🎯 `@Value` Annotation
-* 🛠 Injecting Configuration into Components
-
----
-
-### ⚡ Day 07 — XML → Annotation Evolution
-
-> Modern Spring Development.
-
-* ⚙️ `@Configuration`
-* 🔍 `@ComponentScan`
-* 💉 `@Autowired`
-* 🎯 `@Qualifier`
-* ❓ `@Nullable`
+* Setter Injection
+* Constructor vs Setter Injection
+* Challenges of IoC
 
 ---
 
-### ⚡ Day 08 — Spring Boot Ignition
+## Day 05 – Spring Annotations
 
-> Building production-ready applications faster.
+* Introduction to Spring Annotations
+* `@Component`
+* `@ComponentScan`
+* Example Without Annotations
 
-* 🚀 Introduction to Spring Boot
-* ⚡ Spring vs Spring Boot
-* 🧠 Spring Boot Architecture
+---
+
+## Day 06 – Configuration Values
+
+* `@Value` Annotation
+* Injecting Configuration into Components
+
+---
+
+## Day 07 – Java-Based Configuration
+
+* `@Configuration`
+* `@ComponentScan`
+* `@Autowired`
+* `@Qualifier`
+* `@Nullable`
+
+---
+
+## Day 08 – Spring Boot Basics
+
+* Introduction to Spring Boot
+* Spring vs Spring Boot
+* Spring Boot Architecture
 
 ```text
 Controller
-     │
-     ▼
- Service
-     │
-     ▼
+    ↓
+Service
+    ↓
 Repository
-     │
-     ▼
- Database
+    ↓
+Database
 ```
 
 ---
 
-### ⚡ Day 09 — Project Genesis
+## Day 09 – First Spring Boot Project
 
-> Creating the first Spring Boot project.
+* Spring Initializr
+* Maven
+* Java 17
+* Project Structure
+* `pom.xml`
+* `@SpringBootApplication`
 
-* 🛠 Spring Initializr
-* 📦 Maven
-* ☕ Java 17
-* 📁 Project Structure
-* 📄 `pom.xml`
-* 🌟 `@SpringBootApplication`
-
-Includes:
-
-* `@Configuration`
-* `@EnableAutoConfiguration`
-* `@ComponentScan`
+  * `@Configuration`
+  * `@EnableAutoConfiguration`
+  * `@ComponentScan`
 
 ---
 
-### ⚡ Day 10 — First Contact API
+## Day 10 – First REST API
 
-> The first backend endpoint.
-
-* 📚 Dependencies
-* 🌐 `/hello` API
-* ⚙️ Auto Configuration
-* 🐱 Embedded Tomcat
-* 📝 `application.properties`
+* Required Dependencies
+* `/hello` API
+* Auto Configuration
+* Embedded Tomcat
+* `application.properties`
 
 ---
 
-### ⚡ Day 11 — API Testing Station
+## Day 11 – API Testing
 
-> Communicating with the server.
-
-* 📮 Postman Setup
-* 📤 POST Request
-* 📦 JSON Response
+* Postman Setup
+* POST Request
+* JSON Response
 
 ---
 
-### ⚡ Day 12 — Resource Management
+## Day 12 – Delete Operations
 
-> CRUD Operations Continue.
-
-* ❌ Delete Mapping
-* 🆔 Delete by ID
-* ⚠️ ID Management Challenges
-* 📤 `ResponseEntity`
+* `@DeleteMapping`
+* Delete by ID
+* ID Management Challenges
+* `ResponseEntity`
 
 ---
 
-### ⚡ Day 13 — HTTP Status Mastery
+## Day 13 – HTTP Status Codes
 
-> APIs should speak the right language.
-
-* ✅ Why `200 OK` Isn't Always Correct
-* 🎯 Proper Use of `ResponseEntity`
-* 📡 Meaningful HTTP Status Codes
+* Why `200 OK` Isn't Always Correct
+* Using `ResponseEntity`
+* Common HTTP Status Codes
 
 ---
 
-### ⚡ Day 14 — Knowledge Synchronization
+## Day 14 – Revision
 
-> Reinforcing everything learned.
-
-* 🔄 Complete Revision
-* ❓ Question & Answer Notes
-* 📄 PDF/Word Documentation
-* 📚 Interview Preparation
-
----
-### ⚡ Day 15 — Data and Database
-Learn about Data and Database 
-Rdbms
-what is ORM 
-SQL vs NOsQL
-### ⚡ Day 16 — JPA Persistence Fundamentals
-
-> Learn how data becomes permanent in the database.
-
-* ✅ Understanding JPA Entities
-* ⚙️ Behind the Scenes of JPA & Entity Properties
-* 🆔 Identity Generation Strategies (`AUTO`, `IDENTITY`, `SEQUENCE`, `TABLE`)
-* 📦 Creating JPA Repositories
-* 💾 Making Entities Persistent
+* Complete Revision
+* Question & Answer Notes
+* PDF/Word Documentation
+* Interview Preparation
 
 ---
 
-### ⚡ Day 17 — JPA Debugging & Best Practices
+## Day 15 – Database Basics
 
-> Build reliable persistence layers and write cleaner service code.
+* What is Data?
+* What is a Database?
+* RDBMS
+* ORM
+* SQL vs NoSQL
 
-* 🧪 Testing Database Changes
-* 🛠️ Resolving `org.hibernate.StaleObjectStateException`
-* 🎯 Using `Optional` in Service Layer
-* ⚡ Optimizing Database Queries & Clean Code Practices
-* 📚 Revision & Interview Preparation
+---
 
+## Day 16 – JPA Fundamentals
 
-## 📊 Mission Progress
+* JPA Entities
+* Entity Properties
+* Identity Generation Strategies
 
-```text
-Day 01  ████████████████████
-Day 02  ████████████████████
-Day 03  ████████████████████
-Day 04  ████████████████████
-Day 05  ████████████████████
-Day 06  ████████████████████
-Day 07  ████████████████████
-Day 08  ████████████████████
-Day 09  ████████████████████
-Day 10  ████████████████████
-Day 11  ████████████████████
-Day 12  ████████████████████
-Day 13  ████████████████████
-Day 14  ████████████████████
-Day 15  ████████████████████
-```
+  * `AUTO`
+  * `IDENTITY`
+  * `SEQUENCE`
+  * `TABLE`
+* JPA Repository
+* Persisting Data
+
+---
+
+## Day 17 – JPA Best Practices
+
+* Testing Database Changes
+* Fixing `org.hibernate.StaleObjectStateException`
+* Using `Optional`
+* Query Optimization
+* Clean Code Practices
+* Revision & Interview Preparation
+
+---
+
+## Progress
+
+* ✅ Day 01
+* ✅ Day 02
+* ✅ Day 03
+* ✅ Day 04
+* ✅ Day 05
+* ✅ Day 06
+* ✅ Day 07
+* ✅ Day 08
+* ✅ Day 09
+* ✅ Day 10
+* ✅ Day 11
+* ✅ Day 12
+* ✅ Day 13
+* ✅ Day 14
+* ✅ Day 15
+* ✅ Day 16
+* ✅ Day 17
 
 ---
 

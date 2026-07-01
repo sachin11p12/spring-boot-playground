@@ -58,7 +58,7 @@ After completing this project, I should clearly understand how Spring works inte
 
 ## 🌌 Progress Timeline
 
-# 🌱 Spring Boot Learning Roadmap
+# 🌱 Spring Boot
 
 ## Day 01 – Foundation
 

@@ -232,6 +232,28 @@ Learn about Data and Database
 Rdbms
 what is ORM 
 SQL vs NOsQL
+### ⚡ Day 16 — JPA Persistence Fundamentals
+
+> Learn how data becomes permanent in the database.
+
+* ✅ Understanding JPA Entities
+* ⚙️ Behind the Scenes of JPA & Entity Properties
+* 🆔 Identity Generation Strategies (`AUTO`, `IDENTITY`, `SEQUENCE`, `TABLE`)
+* 📦 Creating JPA Repositories
+* 💾 Making Entities Persistent
+
+---
+
+### ⚡ Day 17 — JPA Debugging & Best Practices
+
+> Build reliable persistence layers and write cleaner service code.
+
+* 🧪 Testing Database Changes
+* 🛠️ Resolving `org.hibernate.StaleObjectStateException`
+* 🎯 Using `Optional` in Service Layer
+* ⚡ Optimizing Database Queries & Clean Code Practices
+* 📚 Revision & Interview Preparation
+
 
 ## 📊 Mission Progress
 

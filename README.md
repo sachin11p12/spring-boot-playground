@@ -23,7 +23,7 @@ In this module, I am focusing on core Spring concepts such as:
 
 ## 🎯 Goal of this project
 
-To build a strong foundation in Spring Framework concepts so that I can easily understand and work with Spring Boot and real-world backend applications.
+To build a strong foundation in Spring Framework concepts so that I can easily understand and work with Spring Boot and real-world backend ap
 
 ## 🚀 Technologies Used
 

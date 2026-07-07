@@ -7,15 +7,16 @@ public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
+
     private String firstName;
     private String lastname;
 
     @Column(unique = true)
     private String email;
+
     private String phoneNumber;
 
-    public Customer(Long id) {
-        Id = id;
+    public Customer() {
     }
 
     public Customer(Long id, String firstName, String lastname, String email, String phoneNumber) {
@@ -42,11 +43,11 @@ public class Customer {
         this.firstName = firstName;
     }
 
-    public String getLastname() {
+    public String getLastName() {
         return lastname;
     }
 
-    public void setLastname(String lastname) {
+    public void setLastName(String lastname) {
         this.lastname = lastname;
     }
 
@@ -65,7 +66,4 @@ public class Customer {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
-
-
 }

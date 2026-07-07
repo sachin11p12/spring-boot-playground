@@ -28,7 +28,7 @@ public class CustomerController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Customer> getCustomerById(@PathVariable Long id){
+    public ResponseEntity<Customer> getCustomerById(@PathVariable Long id){  // we can also do this @PathVariable("id")
         return customerService.getCustomerById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());

@@ -254,6 +254,9 @@ Database
 * ✅ Day 17
 
 ---
+<img width="1576" height="992" alt="image" src="https://github.com/user-attachments/assets/d0812a21-40c8-4cbc-a4dc-7f1d848ba313" />
+<img width="1223" height="763" alt="image" src="https://github.com/user-attachments/assets/2684bed0-4ec5-4391-a6ec-d0ec11915814" />
+
 
 <div align="center">
 

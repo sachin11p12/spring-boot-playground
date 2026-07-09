@@ -1,10 +1,10 @@
 # 🌱 Spring & Spring Boot Learning Journey
 
-Learning Spring Framework and Spring Boot step by step while building projects.
+This repository documents my journey of learning **Spring Framework** and **Spring Boot** by building projects and exploring core backend development concepts.
 
 ## 🎯 Goal
 
-Build a strong foundation in Spring Framework and Spring Boot for backend development.
+Build a strong foundation in Spring Framework and Spring Boot to develop scalable backend applications.
 
 ## 🛠️ Tech Stack
 
@@ -16,73 +16,132 @@ Build a strong foundation in Spring Framework and Spring Boot for backend develo
 
 ---
 
-# 📅 Daily Progress
+# 📚 Learning Progress
 
-| Day    | Topic                                                    | Status |
-| ------ | -------------------------------------------------------- | ------ |
-| Day 01 | Web Framework, Spring Framework, Tight vs Loose Coupling | ✅      |
-| Day 02 | IoC, Spring Container, Beans, Bean Lifecycle             | ✅      |
-| Day 03 | Dependency Injection, Constructor Injection              | ✅      |
-| Day 04 | Setter Injection                                         | ✅      |
-| Day 05 | Spring Annotations (`@Component`, `@ComponentScan`)      | ✅      |
-| Day 06 | `@Value` Annotation                                      | ✅      |
-| Day 07 | Java Configuration, `@Autowired`, `@Qualifier`           | ✅      |
-| Day 08 | Spring Boot Introduction & Architecture                  | ✅      |
-| Day 09 | First Spring Boot Project                                | ✅      |
-| Day 10 | First REST API                                           | ✅      |
-| Day 11 | API Testing with Postman                                 | ✅      |
-| Day 12 | Delete API, `@DeleteMapping`, `ResponseEntity`           | ✅      |
-| Day 13 | HTTP Status Codes                                        | ✅      |
-| Day 14 | Revision & Interview Questions                           | ✅      |
-| Day 15 | Database, RDBMS, SQL vs NoSQL                            | ✅      |
-| Day 16 | JPA Fundamentals                                         | ✅      |
-| Day 17 | JPA Best Practices                                       | ✅      |
-| Day 18 | Your Next Topic                                          | ⏳      |
+## Day 01
+
+* Web Framework
+* Spring Framework
+* Tight Coupling vs Loose Coupling
+
+## Day 02
+
+* Inversion of Control (IoC)
+* Spring Container
+* Spring Beans
+* Bean Lifecycle
+
+## Day 03
+
+* Dependency Injection (DI)
+* Constructor Injection
+* How DI Works
+
+## Day 04
+
+* Setter Injection
+* Constructor vs Setter Injection
+
+## Day 05
+
+* Spring Annotations
+* `@Component`
+* `@ComponentScan`
+
+## Day 06
+
+* `@Value` Annotation
+* Injecting Configuration Values
+
+## Day 07
+
+* Java-Based Configuration
+* `@Configuration`
+* `@Autowired`
+* `@Qualifier`
+* `@Nullable`
+
+## Day 08
+
+* Introduction to Spring Boot
+* Spring vs Spring Boot
+* Spring Boot Architecture
+
+## Day 09
+
+* Spring Initializr
+* Project Structure
+* Maven
+* `pom.xml`
+* `@SpringBootApplication`
+
+## Day 10
+
+* First REST API
+* `application.properties`
+* Embedded Tomcat
+
+## Day 11
+
+* API Testing with Postman
+* JSON Requests & Responses
+
+## Day 12
+
+* `@DeleteMapping`
+* Delete by ID
+* `ResponseEntity`
+
+## Day 13
+
+* HTTP Status Codes
+* REST API Best Practices
+
+## Day 14
+
+* Revision
+* Interview Questions
+
+## Day 15
+
+* Database Basics
+* RDBMS
+* SQL vs NoSQL
+* ORM
+
+## Day 16
+
+* JPA Fundamentals
+* Entity Mapping
+* Repository
+* ID Generation Strategies
+
+## Day 17
+
+* JPA Best Practices
+* Query Optimization
+* Exception Handling
+* Clean Code
 
 ---
 
-## 📚 Topics Covered
+## 📖 Topics Covered
 
-* Spring Framework Basics
-* IoC (Inversion of Control)
+* Spring Core
+* Inversion of Control (IoC)
 * Dependency Injection
 * Spring Beans
 * Bean Lifecycle
 * Autowiring
 * Spring Annotations
 * Java-Based Configuration
-* Spring Boot Basics
+* Spring Boot
 * REST APIs
-* Maven
 * HTTP Methods
 * ResponseEntity
-* Databases
+* Database Fundamentals
 * JPA & Hibernate
 
 ---
 
-## 🚀 How to Update Daily
-
-Every day:
-
-1. Add a new row in the **Daily Progress** table.
-2. Change the status from `⏳` to `✅` after completing it.
-3. Push your changes to GitHub.
-
-Example:
-
-| Day    | Topic                           | Status |
-| ------ | ------------------------------- | ------ |
-| Day 19 | Spring Data JPA CRUD Operations | ⏳      |
-
----
-
-## ⭐ Progress
-
-**Completed:** 17 Days
-
-**Current Focus:** Spring Boot & JPA
-
----
-
-> *"Learn one concept every day. Small progress leads to big results."*
+> *"Learning one concept every day and improving through consistent practice."*

@@ -35,6 +35,8 @@ Build a strong foundation in Spring Framework and Spring Boot to develop scalabl
 - Day 15 - Database Basics, RDBMS, SQL vs NoSQL, ORM
 - Day 16 - JPA Fundamentals, Entity Mapping, Repository, ID Generation Strategies
 - Day 17 - JPA Best Practices, Query Optimization, Exception Handling, Clean Code
+- Day 18 - Lombok, Why we Use this, how we use, Annotations of Lombok.
+- Day 19 - Learn about validation, How it Works, Annotation use - Notblank, Size etc.
 
 ---
 

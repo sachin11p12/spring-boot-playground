@@ -37,6 +37,7 @@ Build a strong foundation in Spring Framework and Spring Boot to develop scalabl
 - Day 17 - JPA Best Practices, Query Optimization, Exception Handling, Clean Code
 - Day 18 - Lombok, Why we Use this, how we use, Annotations of Lombok.
 - Day 19 - Learn about validation, How it Works, Annotation use - Notblank, Size etc.
+- Day 20 - currently i qm in Khatushyamji and revising validation concepts through youtube.
 
 ---
 

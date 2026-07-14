@@ -1,270 +1,64 @@
-# SpringExample
+# 🌱 Spring & Spring Boot Learning Journey
 
-This project is part of my learning journey to understand the Spring Framework fundamentals before moving into Spring Boot.
+This repository documents my journey of learning **Spring Framework** and **Spring Boot** by building projects and exploring core backend development concepts.
 
-## 📚 What I will learn in this project
+## 🎯 Goal
 
-In this module, I am focusing on core Spring concepts such as:
+Build a strong foundation in Spring Framework and Spring Boot to develop scalable backend applications.
 
-- Web framework, Spring framework
-- Coupling (tight vs loose coupling)
-- Inversion of Control (IoC)
-- Spring Container
-- Bean and Bean Lifecycle
-- Dependency Injection (DI)
-    - Setter Injection
-    - Constructor Injection
-- Autowiring
-    - By Type
-    - By Name
-    - By Constructor
-- Configuration in Spring (XML and Java-based configuration)
-- Setting up a basic Spring project without Spring Boot
+## 🛠️ Tech Stack
 
-## 🎯 Goal of this project
-
-To build a strong foundation in Spring Framework concepts so that I can easily understand and work with Spring Boot and real-world backend ap
-
-## 🚀 Technologies Used
-
-- Java
-- Spring Framework (Core)
-- Maven (if used)
-- IntelliJ IDEA
-
-## 🧠 Learning Outcome
-
-After completing this project, I should clearly understand how Spring works internally, how objects are managed by the Spring container, and how dependency injection simplifies application development.
-
----
-# 🚀 Spring Boot Learning Odyssey
-
-<div align="center">
-
-# ⚡ Spring Boot 
-
-*Transforming Curiosity into Backend Development Skills.*
-
-`Java 17` • `Spring` • `Spring Boot` • `REST APIs` • `Maven`
-
----
-
-> **Status:** 🟢 In Progress
-> **Mission:** Become a Backend Developer, one day at a time.
-
-</div>
-
----
-
-## 🌌 Progress Timeline
-
-# 🌱 Spring Boot
-
-## Day 01 – Foundation
-
-* What is a Web Framework?
-* Introduction to Spring Framework
-* Tight Coupling vs Loose Coupling
-
----
-
-## Day 02 – Spring Core
-
-* Inversion of Control (IoC)
-* Spring Beans
-* Bean Scopes
-* Spring Application Context
-
----
-
-## Day 03 – Dependency Injection
-
-* Dependency Injection (DI)
-* Constructor Injection
-* How DI Works
-* Constructor Injection vs Traditional Approach
-
----
-
-## Day 04 – Setter Injection
-
-* Setter Injection
-* Constructor vs Setter Injection
-* Challenges of IoC
-
----
-
-## Day 05 – Spring Annotations
-
-* Introduction to Spring Annotations
-* `@Component`
-* `@ComponentScan`
-* Example Without Annotations
-
----
-
-## Day 06 – Configuration Values
-
-* `@Value` Annotation
-* Injecting Configuration into Components
-
----
-
-## Day 07 – Java-Based Configuration
-
-* `@Configuration`
-* `@ComponentScan`
-* `@Autowired`
-* `@Qualifier`
-* `@Nullable`
-
----
-
-## Day 08 – Spring Boot Basics
-
-* Introduction to Spring Boot
-* Spring vs Spring Boot
-* Spring Boot Architecture
-
-```text
-Controller
-    ↓
-Service
-    ↓
-Repository
-    ↓
-Database
-```
-
----
-
-## Day 09 – First Spring Boot Project
-
-* Spring Initializr
-* Maven
 * Java 17
-* Project Structure
-* `pom.xml`
-* `@SpringBootApplication`
-
-  * `@Configuration`
-  * `@EnableAutoConfiguration`
-  * `@ComponentScan`
+* Spring Framework
+* Spring Boot
+* Maven
+* IntelliJ IDEA
 
 ---
 
-## Day 10 – First REST API
+### 📚 Learning Progress
 
-* Required Dependencies
-* `/hello` API
-* Auto Configuration
-* Embedded Tomcat
-* `application.properties`
-
----
-
-## Day 11 – API Testing
-
-* Postman Setup
-* POST Request
-* JSON Response
-
----
-
-## Day 12 – Delete Operations
-
-* `@DeleteMapping`
-* Delete by ID
-* ID Management Challenges
-* `ResponseEntity`
-
----
-
-## Day 13 – HTTP Status Codes
-
-* Why `200 OK` Isn't Always Correct
-* Using `ResponseEntity`
-* Common HTTP Status Codes
+- Day 01 - Web Framework, Spring Framework, Tight Coupling vs Loose Coupling
+- Day 02 - Inversion of Control (IoC), Spring Container, Spring Beans, Bean Lifecycle
+- Day 03 - Dependency Injection (DI), Constructor Injection, How DI Works
+- Day 04 - Setter Injection, Constructor vs Setter Injection
+- Day 05 - Spring Annotations, @Component, @ComponentScan
+- Day 06 - @Value Annotation, Injecting Configuration Values
+- Day 07 - Java-Based Configuration, @Configuration, @Autowired, @Qualifier, @Nullable
+- Day 08 - Introduction to Spring Boot, Spring vs Spring Boot, Spring Boot Architecture
+- Day 09 - Spring Initializr, Project Structure, Maven, pom.xml, @SpringBootApplication
+- Day 10 - First REST API, application.properties, Embedded Tomcat
+- Day 11 - API Testing with Postman, JSON Requests & Responses
+- Day 12 - @DeleteMapping, Delete by ID, ResponseEntity
+- Day 13 - HTTP Status Codes, REST API Best Practices
+- Day 14 - Revision, Interview Questions
+- Day 15 - Database Basics, RDBMS, SQL vs NoSQL, ORM
+- Day 16 - JPA Fundamentals, Entity Mapping, Repository, ID Generation Strategies
+- Day 17 - JPA Best Practices, Query Optimization, Exception Handling, Clean Code
+- Day 18 - Lombok, Why we Use this, how we use, Annotations of Lombok.
+- Day 19 - Learn about validation, How it Works, Annotation use - Notblank, Size etc.
+- Day 20 - currently i qm in Khatushyamji and revising validation concepts through youtube.
+- Day 21 - Revise and Learn about Exception,
 
 ---
 
-## Day 14 – Revision
+## 📖 Topics Covered
 
-* Complete Revision
-* Question & Answer Notes
-* PDF/Word Documentation
-* Interview Preparation
-
----
-
-## Day 15 – Database Basics
-
-* What is Data?
-* What is a Database?
-* RDBMS
-* ORM
-* SQL vs NoSQL
-
----
-
-## Day 16 – JPA Fundamentals
-
-* JPA Entities
-* Entity Properties
-* Identity Generation Strategies
-
-  * `AUTO`
-  * `IDENTITY`
-  * `SEQUENCE`
-  * `TABLE`
-* JPA Repository
-* Persisting Data
+* Spring Core
+* Inversion of Control (IoC)
+* Dependency Injection
+* Spring Beans
+* Bean Lifecycle
+* Autowiring
+* Spring Annotations
+* Java-Based Configuration
+* Spring Boot
+* REST APIs
+* HTTP Methods
+* ResponseEntity
+* Database Fundamentals
+* JPA & Hibernate
 
 ---
 
-## Day 17 – JPA Best Practices
-
-* Testing Database Changes
-* Fixing `org.hibernate.StaleObjectStateException`
-* Using `Optional`
-* Query Optimization
-* Clean Code Practices
-* Revision & Interview Preparation
-
----
-
-## Progress
-
-* ✅ Day 01
-* ✅ Day 02
-* ✅ Day 03
-* ✅ Day 04
-* ✅ Day 05
-* ✅ Day 06
-* ✅ Day 07
-* ✅ Day 08
-* ✅ Day 09
-* ✅ Day 10
-* ✅ Day 11
-* ✅ Day 12
-* ✅ Day 13
-* ✅ Day 14
-* ✅ Day 15
-* ✅ Day 16
-* ✅ Day 17
-
----
-<img width="1576" height="992" alt="image" src="https://github.com/user-attachments/assets/d0812a21-40c8-4cbc-a4dc-7f1d848ba313" />
-<img width="1223" height="763" alt="image" src="https://github.com/user-attachments/assets/2684bed0-4ec5-4391-a6ec-d0ec11915814" />
-
-
-<div align="center">
-
-### 💻 *"Every API built today becomes the foundation for tomorrow's systems."*
-
-⭐ **Thanks for visiting my learning journey!**
-
-</div>
-
--  
-- 
+> *"Learning one concept every day and improving through consistent practice."*

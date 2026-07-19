@@ -12,21 +12,23 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestControllerAdvice
-public class MyGlobalExcepptionHandler {
+public class MyGlobalExceptionHandler {
 
-//    @ExceptionHandler(Exception.class)  // generic exception handler
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<Map<String, String>> myMethodArgumentNotValidException(MethodArgumentNotValidException e){
-        Map<String, String> response  = new HashMap<>();
+    public ResponseEntity<Map<String, String>> myMethodArgumentNotValidException(MethodArgumentNotValidException e) {
+        Map<String, String> response = new HashMap<>();
         e.getBindingResult().getAllErrors().forEach(err -> {
-            String fieldName = ((FieldError)err).getField();
+            String fieldName = ((FieldError) err).getField();
             String message = err.getDefaultMessage();
             response.put(fieldName, message);
         });
-        return new ResponseEntity<Map<String,String>>(response, HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<Map<String, String>>(response,
+                HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<String> myResourceNotFoundException(ResourceNotFoundException e)
-
+    public ResponseEntity<String> myResourceNotFoundException(ResourceNotFoundException e) {
+        String message = e.getMessage();
+        return new ResponseEntity<>(message, HttpStatus.NOT_FOUND);
+    }
 }

@@ -39,7 +39,8 @@ Build a strong foundation in Spring Framework and Spring Boot to develop scalabl
 - Day 19 - Learn about validation, How it Works, Annotation use - Notblank, Size etc.
 - Day 20 - currently i qm in Khatushyamji and revising validation concepts through youtube.
 - Day 21 - Revise and Learn about Exception
-- Day 22 - Implement Custom Exception
+- Day 22 - Implement Custom Exception.
+- Day 23 - Start Pagination - What pagination is and How it works.
 
 ---
 

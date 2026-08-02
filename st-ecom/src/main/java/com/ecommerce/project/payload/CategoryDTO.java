@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CategoryDTO {
     private Long categoryId;
-    private String CategoryName;
-}       
+    private String categoryName;
+}

@@ -17,7 +17,7 @@ public class CategoryController {
     private CategoryService categoryService;
 
     @GetMapping("/echo")
-    public ResponseEntity<String> echoMessage(@RequestParam(name = "message") String message){
+    public ResponseEntity<String> echoMessage(@RequestParam(name = "message" , defaultValue = "Hello i am default !") String message){
         return new ResponseEntity<>("Echoed Message: "+ message, HttpStatus.OK);
     }
 

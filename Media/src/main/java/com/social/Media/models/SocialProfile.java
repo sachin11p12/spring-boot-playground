@@ -9,6 +9,6 @@ public class SocialProfile {
     private Long id;
 
     @OneToOne
-    @JoinColumn(name = "social_user") //   defininf foreign key here
+    @JoinColumn(name = "social_user") //   defining foreign key here -ts work as
     private SocialUser user;
 }

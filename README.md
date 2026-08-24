@@ -63,6 +63,7 @@ Build a strong foundation in Spring Framework and Spring Boot to develop scalabl
 * ResponseEntity
 * Database Fundamentals
 * JPA & Hibernate
+* Entities and Relationships
 ---
 
 > *"Learning one concept every day and improving through consistent practice."*

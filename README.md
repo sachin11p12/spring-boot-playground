@@ -43,6 +43,7 @@ Build a strong foundation in Spring Framework and Spring Boot to develop scalabl
 - Day 23 - Start Pagination - What pagination is and How it works.
 - Day 24 - Learn about Request Param annotation & test pagealbe, pageNumber, pageSize, with postman and H2 Database.
 - 19aug26 - JPA and Relationship , types of relationship
+- 24auf26 - Learn and Implement about Mant to Many relationship and Setting Up API's.
 
 ---
 
